@@ -4,6 +4,8 @@
 The GPU is exclusively reserved by the caller; this program never touches the
 mining supervisor. It checks every output cell against an all-ones reference.
 """
+import utils.transport
+import utils.session
 import argparse
 import ctypes as C
 import hashlib
