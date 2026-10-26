@@ -36,3 +36,5 @@ Module.symvers
 *.exe
 *.obj
 *.a
+config.bat
+node_modules
